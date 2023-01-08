@@ -11,7 +11,6 @@ from flask_gravatar import Gravatar
 from functools import wraps
 from dotenv import load_dotenv
 import os
-import email_validator
 
 load_dotenv()
 app = Flask(__name__)
